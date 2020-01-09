@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    /* none */
+}
+
+nav{
+    /* Red navigation bar on top of the page */
+    display: flex;
+    background-color: #ee5253 ;
+    height:8vh;
+    margin-top: -3%;
+}
+
+img{
+    /* Submitl'd logo on the upper left of the page */
+    display: flex;
+    margin: 3px 50px 0px 30px;
+    width: 125px;
+    height: 40px;
+}
+.btn{
+    display: inline-block;
+    padding-top:-10px;
+    padding: 0px 0px 0px 370px;
+    text-align: center;
+    /* makes it responsive  */
+    background-color: white;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.btn-eng {
+	border: 1px solid yellow;
+	background: yellow;
+	color:white;
+	width: 350px;
+	height: 80px;
+	cursor: pointer;
+    font-size: 25px;
+    text-shadow: 2px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-cont {
+    border: 1px solid  #ee5253;
+	background:  #ee5253;
+	width: 350px;
+	height: 80px;
+	cursor: pointer;
+	font-size: 25px;
+	color: white;
+    margin: 10px 0px 0px 80px;
+    text-shadow: 2px 0  #ee5253, 0 1px  #ee5253, 1px 0  #ee5253, 0 -1px  #ee5253;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.b1:hover{ 
+    background-color: white;
+    color : yellow ;
+}
+.b2:hover{
+    background-color:white;
+    color:  #ee5253;
+}
+
+h1{
+    /* Submitl'd [xxxx] */
+    font-family: 'Poppins', solid sans-serif;
+    font-size: 55px;
+   /*font-style:italic;  italic title Optional*/
+    margin: 0px 30px 0px 325px;
+    letter-spacing:2px;
+    font-weight: bold;
+}
+h2{
+    /* noun */
+    display: flex;
+    background-color:black;
+    color: white;
+    font-style: italic;
+    font-size: 35px;
+    width: 90px;
+    height:60px;
+    margin: 0px 30px 0px 325px;
+    font-family: 'Abel', sans-serif;
+    justify-content:space-around;
+}
+
+#font1{
+    /* 1. a brand new platform designed to */
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    margin: -15px 30px -20px 410px;
+}
+
+#font2{
+    /* we can't wait to get you started your */
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin: 10px 30px 0px 360px;
+    margin-bottom:0px;
+}
+
+#fontline{
+    /*first submitl'd powered project!*/
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin: 10px 30px 0px 425px;
+    margin-top:-25px;
+}
+
+#font3{
+    /* you're just a few minutes away from the end  of approval headaches. */
+    justify-content: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    margin: 0px 30px 0px 450px;
+}
+
+#font4{
+    /* 1.what are you ? */
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    margin: 10px 30px 0px 645px;
+}
+
+#itemsfont, td{
+    margin: 10%;
+    margin-bottom: 30%;
+    justify-content: left;
+    color: #333333;;
+    font-family: 'Poppins', sans-serif;
+    font-size:50px;
+}
+.hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
